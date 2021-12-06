@@ -1,0 +1,30 @@
+#Hardware {
+  padding-top: 1000px;
+}
+
+p{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 28pt;
+  margin: 20pt;
+}
+nav {
+  background-color: #000000;
+}
+#Fertig-pc{
+  padding-top: 1000px;
+}
+#Reperatur {
+  padding: 80px;
+}
+#top{
+  text-align: center;
+  padding-top: 100px;
+}
