@@ -1,5 +1,5 @@
-#Hardware {
-  padding-top: 1000px;
+body {
+  background-color: #1d1d1d;
 }
 
 p{
@@ -17,14 +17,41 @@ h2{
 }
 nav {
   background-color: #000000;
+  display: grid;
 }
-#Fertig-pc{
-  padding-top: 1000px;
-}
-#Reperatur {
-  padding: 80px;
-}
-#top{
+#Logo{
+  display: grid;
   text-align: center;
-  padding-top: 100px;
+}
+.top{
+  margin-top: 5rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 33%) ;
+  grid-template-rows: 6rem 20rem;
+
+}
+
+#Hadware {
+  grid-area: Hadware;
+}
+
+#Reperatur {
+  grid-area: Reperatur ;
+}
+
+#Fertig-pc {
+  grid-area: Fertig-pc ;
+}
+
+#Hadware-bild {
+  grid-area: Hadware-bild ;
+}
+
+#Reperatur-bild {
+  grid-area: Reperatur-bild ;
+}
+
+#Fertig-pc-bild {
+  grid-area: Fertig-pc-bild ;
 }
