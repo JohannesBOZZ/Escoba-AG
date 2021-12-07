@@ -17,7 +17,6 @@ h2{
 }
 nav {
   background-color: #000000;
-  display: grid;
 }
 #Logo{
   display: grid;
@@ -28,7 +27,7 @@ nav {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 33%) ;
-  grid-template-rows: 6rem 20rem;
+  grid-template-rows: 8rem 20rem;
 
 }
 
