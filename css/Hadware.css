@@ -3,5 +3,23 @@ body {
 }
 
 nav {
+  display: grid;
   background-color: #000000;
+  grid-template-columns: 90% 10%;
+}
+
+p{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: century gothic;
+}
+
+.top{
+  margin-top: 5rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 33%) ;
+  grid-template-rows: 8rem 20rem;
+
 }

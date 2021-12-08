@@ -6,21 +6,16 @@ p{
   color: #ffffff;
   font-size: 28px;
   font-weight: bold;
+  font-family: century gothic;
 }
 
-h2{
-  text-align: center;
-  color: #ffffff;
-  font-family: arial;
-  font-size: 28pt;
-  margin: 20pt;
-}
 nav {
+  display: grid;
   background-color: #000000;
+  grid-template-columns: 90% 10%;
 }
 #Logo{
-  display: grid;
-  text-align: center;
+  text-align: left;
 }
 .top{
   margin-top: 5rem;
