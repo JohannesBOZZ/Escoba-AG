@@ -1,5 +1,7 @@
 body {
   background-color: #1d1d1d;
+  padding: 0px;
+  margin: 0px;
 }
 
 p{
@@ -12,7 +14,7 @@ p{
 nav {
   display: grid;
   background-color: #000000;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 30% 10%;
 }
 #Logo{
   text-align: left;
@@ -24,29 +26,4 @@ nav {
   grid-template-columns: repeat(3, 33%) ;
   grid-template-rows: 8rem 20rem;
   column-gap: 1rem;
-
-}
-
-#Hadware {
-  grid-area: Hadware;
-}
-
-#Reperatur {
-  grid-area: Reperatur ;
-}
-
-#Fertig-pc {
-  grid-area: Fertig-pc ;
-}
-
-#Hadware-bild {
-  grid-area: Hadware-bild ;
-}
-
-#Reperatur-bild {
-  grid-area: Reperatur-bild ;
-}
-
-#Fertig-pc-bild {
-  grid-area: Fertig-pc-bild ;
 }
