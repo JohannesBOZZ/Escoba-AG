@@ -13,7 +13,7 @@ nav {
 
 p{
   color: #ffffff;
-  font-size: 28px;
+  font-size: 2em;
   font-weight: bold;
   font-family: century gothic;
 }
@@ -22,7 +22,12 @@ p{
   margin-top: 5rem;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 33%) ;
+  grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 8rem 20rem;
+  column-gap: 3%;
+  grid-template-areas: 
+  "Hardware Reperatur Fertig-pc"
+  "Hardware-img Reperatur-img Fertig-pc-img"
+  ;
 
 }
