@@ -21,6 +21,8 @@ nav {
   display: grid;
   background-color: #000000;
   grid-template-columns: 30% 10%;
+  grid-template-rows: 9em
+  
 }
 .grid {
   margin-top: 5%;
@@ -28,12 +30,12 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 3%;
-  grid-template-rows: 8em 20em 10.5em 20em 8em 20em;
+  grid-template-rows: 8em 20em 10.5em 20em 10.5em 20em;
   grid-template-areas: 
   "K95 Logitech-G915-TKL Corsair-K65-RGB-Mini"
   "K95-img Logitech-G915-TKL-img Corsair-K65-RGB-Mini-img"
   "Logitech-G-Pro-X ASUS-ROG-Chakram-Core Corsair-Dark-core-RGB-Pro"
   "Logitech-G-Pro-X-img ASUS-ROG-Chakram-Core-img Corsair-Dark-core-RGB-Pro-img"
-  
-  ;
+  "Logitech-G-Pro-X-Gaming-Headset SteelSeries-Arctis-9-Wireless Razer-BlackShark-V2-Pro"
+  "Logitech-G-Pro-X-Gaming-Headset-img SteelSeries-Arctis-9-Wireless-img Razer-BlackShark-V2-Pro-img";
 }
