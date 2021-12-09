@@ -26,11 +26,14 @@ nav {
   margin-top: 5%;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 33%) ;
-  grid-template-rows: 8rem 20rem 8rem 20rem;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 3%;
+  grid-template-rows: 8em 20em 10.5em 20em 8em 20em;
   grid-template-areas: 
-  "K95"
-  "K95-img"
+  "K95 Logitech-G915-TKL Corsair-K65-RGB-Mini"
+  "K95-img Logitech-G915-TKL-img Corsair-K65-RGB-Mini-img"
+  "Logitech-G-Pro-X ASUS-ROG-Chakram-Core Corsair-Dark-core-RGB-Pro"
+  "Logitech-G-Pro-X-img ASUS-ROG-Chakram-Core-img Corsair-Dark-core-RGB-Pro-img"
   
   ;
 }
