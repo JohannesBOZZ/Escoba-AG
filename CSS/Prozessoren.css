@@ -23,6 +23,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 3%;
+  row-gap: 1.5%;
   grid-template-rows: 8em 20em 10.5em 20em 10.5em 20em;
   grid-template-areas: 
   ""

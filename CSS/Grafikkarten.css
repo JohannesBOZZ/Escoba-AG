@@ -29,12 +29,13 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 3%;
+  row-gap: 1.5%;
   grid-template-rows: 10.5em 20em 10.5em 20em 10.5em 20em 10.5em 20em 10.5em 20em  ;
   grid-template-areas: 
-  "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC"
-  "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC-img ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC-img"
-  ""
-  ""
+  "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC MSI-GeForce-RTX-3070-Gaming-Z-Trio"
+  "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC-img ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC-img MSI-GeForce-RTX-3070-Gaming-Z-Trio-img"
+  "NVIDIA-GeForce-RTX-3070-Founders-Edition MSI-GeForce-RTX-3070-Ti-Suprim-X GIGABYTE-AORUS-GeForce-RTX-3080-Master"
+  "NVIDIA-GeForce-RTX-3070-Founders-Edition-img MSI-GeForce-RTX-3070-Ti-Suprim-X-img GIGABYTE-AORUS-GeForce-RTX-3080-Master-img"
   ""
   "" 
   "" 
