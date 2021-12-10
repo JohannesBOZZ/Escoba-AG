@@ -1,0 +1,37 @@
+body {
+  background-color: #1d1d1d;
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: century gothic;
+}
+
+nav {
+  display: grid;
+  background-color: #000000;
+  grid-template-columns: 30% 10%;
+  grid-template-rows: 9em
+}
+.grid {
+  margin-top: 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 3%;
+  grid-template-rows: 8em 20em 10.5em 20em 10.5em 20em;
+  grid-template-areas: 
+  ""
+  ""
+  ""
+  ""
+  ""
+  "" 
+  "" 
+  ""
+;
+}

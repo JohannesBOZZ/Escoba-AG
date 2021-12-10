@@ -26,8 +26,8 @@ p{
   grid-template-rows: 8rem 20rem;
   column-gap: 3%;
   grid-template-areas: 
-  "Hardware Reperatur Fertig-pc"
-  "Hardware-img Reperatur-img Fertig-pc-img"
+  "Grafikkarten Prozessoren Peripherie"
+  "Grafikkarten-img Prozessoren-img Peripherie-img"
   ;
 
 }
