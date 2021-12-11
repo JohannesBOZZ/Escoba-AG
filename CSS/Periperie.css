@@ -20,17 +20,16 @@ nav {
   display: grid;
   background-color: #000000;
   grid-template-columns: 30% 10%;
-  grid-template-rows: 9em
+  grid-template-rows: 6em;
   
 }
 .grid {
   margin-top: 5%;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 31% 32% 31% ;
   column-gap: 3%;
-  row-gap: 1.5%;
-  grid-template-rows: 8em 20em 10.5em 20em 10.5em 20em;
+  grid-template-rows: auto 15em auto 15em auto 15em;
   grid-template-areas: 
   "K95 Logitech-G915-TKL Corsair-K65-RGB-Mini"
   "K95-img Logitech-G915-TKL-img Corsair-K65-RGB-Mini-img"
