@@ -16,7 +16,7 @@ h2{
   display: grid;
   grid-template-columns: 31% 32% 31% ;
   column-gap: 3%;
-  grid-template-rows: auto 20em auto 20em auto 20em auto 20em auto 20em  ;
+  grid-template-rows: auto 18rem auto 18rem auto 18rem auto 18rem auto 18rem   ;
   grid-template-areas: 
   "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC MSI-GeForce-RTX-3070-Gaming-Z-Trio"
   "ASUS-TUF-Gaming-GeForce-RTX-3060-V2-OC-img ASUS-Dual-GeForce-RTX-3060-Ti-V2-OC-img MSI-GeForce-RTX-3070-Gaming-Z-Trio-img"
