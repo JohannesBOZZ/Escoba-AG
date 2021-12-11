@@ -1,16 +1,3 @@
-body {
-  background-color: #1d1d1d;
-  margin: 0%;
-  padding: 0%;
-}
-
-nav {
-  display: grid;
-  background-color: #000000;
-  grid-template-columns: 30% 40% ;
-  grid-template-rows: 6em;
-}
-
 p{
   color: #ffffff;
   font-size: 2em;
@@ -19,7 +6,7 @@ p{
 }
 
 .top{
-  margin-top: 5rem;
+  margin-top: 8rem;
   text-align: center;
   display: grid;
   grid-template-columns:  31% 32% 31% ;

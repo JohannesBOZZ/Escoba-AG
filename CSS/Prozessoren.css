@@ -11,12 +11,6 @@ p{
   font-family: century gothic;
 }
 
-nav {
-  display: grid;
-  background-color: #000000;
-  grid-template-columns: 30% 10%;
-  grid-template-rows: 6em;
-}
 .grid {
   margin-top: 5%;
   text-align: center;
@@ -32,7 +26,5 @@ nav {
   ""
   ""
   "" 
-  "" 
-  ""
-;
+  ;
 }
