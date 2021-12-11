@@ -11,12 +11,12 @@ h2{
 }
 
 .grid {
-  margin-top: 5%;
+  margin-top: 8%;
   text-align: center;
   display: grid;
   grid-template-columns: 31% 32% 31% ;
   column-gap: 3%;
-  grid-template-rows: auto 15em auto 15em auto 15em;
+  grid-template-rows: auto 18rem auto 18rem auto 18rem;
   grid-template-areas: 
   "K95 Logitech-G915-TKL Corsair-K65-RGB-Mini"
   "K95-img Logitech-G915-TKL-img Corsair-K65-RGB-Mini-img"
