@@ -11,7 +11,7 @@ p{
   display: grid;
   grid-template-columns: 31% 32% 31% ;
   row-gap: 5%;
-  grid-template-rows: auto 20em;
+  grid-template-rows: auto 20rem;
   column-gap: 3%;
   grid-template-areas: 
   "Hardware Reperatur Fertig-pc"
