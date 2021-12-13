@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 p{
   color: #ffffff;
   font-size: 2em;
@@ -11,7 +14,7 @@ p{
   display: grid;
   grid-template-columns: 31% 32% 31% ;
   row-gap: 5%;
-  grid-template-rows: auto 20rem;
+  grid-template-rows: 4REM 20rem;
   column-gap: 3%;
   grid-template-areas: 
   "Hardware Reperatur Fertig-pc"
