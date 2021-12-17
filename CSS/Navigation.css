@@ -13,6 +13,7 @@ body {
     font-family: century gothic;
     background-color: #1d1d1d;
     line-height: 1.4;
+    height: 100vh;
 }
   
 .container {
@@ -245,10 +246,10 @@ body {
   
 footer {
     border-top: solid 1px #666;
-    padding: 1rem;
+    padding: 1.5rem;
     color:#dddddd;
-    margin-top: auto;
-    margin: 0rem 2rem 0rem 2rem;
+    margin-top: 90vh;
+    margin: 0rem 3rem 0rem 3rem;
 }
   
 footer ul {
@@ -290,4 +291,15 @@ nav{
   grid-template-areas: 
   "menu-wrap search"
   ;
+}
+
+body{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 5rem auto 8rem;
+    grid-template-areas: 
+    "nav"
+    "top"
+    "footer"
+    ;
 }
