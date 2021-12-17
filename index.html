@@ -5,11 +5,9 @@
 			<meta charset="utf-8">
 			<title> Escoba-AG </title>
 			<link rel="stylesheet" type="text/css" href="CSS/csscoba.css">
-			<link rel="stylesheet" type="text/sass" href="CSS/style.sass">
 			<link rel="stylesheet" type="text/css" href="CSS/Navigation.css">
 			<link rel="icon" type="image/png" href="Bilder/Tab Logo.png">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<script src="JS/app.js"></script>
 		</head>
 
   	<body>
@@ -23,10 +21,14 @@
 					<div>
 					  <ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="Hardware/Hardware.html">Hardware</a>
-						<li><a href="Reperatur/Reperatur.html">Reperatur</a></li>
-						<li><a href="Fertig PC/Fertig-pc.html">Fertig PCs</a> </li>
-						<li><a href="Über uns.html">Über uns</a></li>
+						<li><a href="Hardware/Hardware.html">Hardware</a><ul>
+							<li><a href="Hardware/Grafikkarten/Grafikkarten.html">Grafikkarten</a></li>
+							<li><a href="Hardware/Prozessoren/Prozessoren.html">Prozessoren</a></li>
+							<li><a href="Hardware/Peripherie/Peripherie.html">Peripherie</a></li>
+						</ul>
+						<li class="untermenu"><a href="Reperatur/Reperatur.html">Reperatur</a></li>
+						<li class="untermenu"><a href="Fertig PC/Fertig-pc.html">Fertig PCs</a> </li>
+						<li class="untermenu"><a href="Über uns.html">Über uns</a></li>
 					  </ul>
 					</div>
 				  </div>
@@ -38,8 +40,8 @@
 		</nav>
 			<div class="top">
 				<p class="Hardware">Hardware</p>
-				<p class="Reperatur">Reperatur</p>
-				<p class="Fertig-pc">Fertig-pc</p>
+				<p class="Reperatur">Reparatur</p>
+				<p class="Fertig-pc">Fertig-PC</p>
 				<a class="Fertig-pc-img" href="Hardware/Hardware.html"><img src="Bilder/3069fe Startseite.png" height="85%"></a>
 				<a class="Reperatur-img" href="Reperatur/Reperatur.html"><img src="Bilder/Reperatur sins.png" alt="Geiler guy" height="85%"></a>
 				<a class="Fertig-pc-img" href="Fertig PC/Fertig-pc.html"><img src="Bilder/PC.png" height="85%"></a>
@@ -47,10 +49,10 @@
 			<!--Footer-->
 				<footer>
 					<ul>
-						<li><a href="Über uns.html">Über uns</a> <a id="Impressum" href="Impressum.html">Impressum</a>   <a href="Datenschutz.html">Detnenschutz</a></li>
+						<li><a href="Über uns.html">Über Uns</a> <a id="Impressum" href="Impressum.html">Impressum</a>   <a href="Datenschutz.html">Datenschutz</a></li>
 					</ul>
 					<p class="Escoba-AG"><a href="404.html"><img src="bilder/Logo.png" height="16px" alt=""></a> © 2021 Escoba AG</p>
 				</footer>
-				<script src="JS/app.js"></script>
+				<script src="JS/nav.js"></script>
 		</body>
 </html>
