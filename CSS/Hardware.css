@@ -10,7 +10,7 @@ p{
   text-align: center;
   display: grid;
   grid-template-columns:  31% 32% 31% ;
-  grid-template-rows: auto 20rem;
+  grid-template-rows: 4rem 20rem;
   column-gap: 3%;
   row-gap: 5%;
   grid-template-areas: 
