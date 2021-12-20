@@ -248,7 +248,6 @@ footer {
     border-top: solid 1px #666;
     padding: 1.5rem;
     color:#dddddd;
-    margin-top: 90vh;
     margin: 0rem 3rem 0rem 3rem;
 }
   
@@ -267,7 +266,7 @@ footer ul a {
     opacity:0.9;
 }
   
-footer ul a:hover {
+footer > ul > a:hover {
   color: #ffff00;
 }
   
@@ -296,7 +295,7 @@ nav{
 body{
     text-align: center;
     display: grid;
-    grid-template-rows: 5rem auto 8rem;
+    grid-template-rows: 6rem auto 6rem;
     grid-template-areas: 
     "nav"
     "top"
