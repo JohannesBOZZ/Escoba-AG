@@ -211,6 +211,12 @@ body {
     
 }
 
+.search{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .Log-in{
     color: #ffff00;
     border: solid ;
