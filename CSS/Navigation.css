@@ -22,40 +22,7 @@ body {
     overflow: hidden;
     padding: 0 3rem;
 }
-  
-.showcase {
-    background: var(--primary-color);
-    color: #fff;
-    height: 100vh;
-    position: relative;
-}
-  
-.showcase:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-  
-.showcase .showcase-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-}
-  
-.showcase h1 {
-    font-size: 4rem;
-}
-  
-.showcase p {
-    font-size: 1.3rem;
-}
+
   
 .btn {
     display: inline-block;
@@ -96,8 +63,8 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     padding: 1rem;
     background: var(--primary-color);
     display: flex;
@@ -110,7 +77,7 @@ body {
     position: relative;
     flex: none;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: #ffff00;
     display: flex;
     align-items: center;
@@ -126,7 +93,7 @@ body {
     z-index: 1;
     top: -10px;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: inherit;
 }
   
@@ -243,6 +210,51 @@ body {
     padding: 0.5rem;
     
 }
+
+.Log-in{
+    color: #ffff00;
+    border: solid ;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 0.65rem;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-right: 5px;
+    font-weight: bold;
+
+}
+.Log-in a {
+    color: #ffff00;
+    text-decoration:none;
+}
+
+.Log-in:hover a {
+    opacity: 0.75;
+    transition: 1s;
+}
+
+.Wahrenkorb{
+    color: #ffff00;
+    border: solid ;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.Wahrenkorb:hover a img {
+    opacity: 0.75;
+    transition: 1s;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 16% 68% 8% 8% ;
+    grid-template-rows: 4rem;
+    grid-template-areas: 
+    "empty search Wahrenkorb Log-in"
+    ;
+}
   
 footer {
     border-top: solid 1px #666;
@@ -266,8 +278,9 @@ footer ul a {
     opacity:0.9;
 }
   
-footer > ul > a:hover {
-  color: #ffff00;
+footer  ul  a:hover {
+    color: #ffff00;
+    transition: 1s;
 }
   
 .Escoba-AG {
@@ -279,17 +292,6 @@ footer > ul > a:hover {
 }
 #Impressum{
     padding: 0 1.5rem 0 1.5rem;
-}
-
-
-
-nav{
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 4rem;
-  grid-template-areas: 
-  "menu-wrap search"
-  ;
 }
 
 body{
