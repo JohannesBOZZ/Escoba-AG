@@ -15,6 +15,17 @@ body {
     line-height: 1.4;
     height: 100vh;
 }
+
+body{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 6rem auto 6rem;
+    grid-template-areas: 
+    "nav"
+    "top"
+    "footer"
+    ;
+}
   
 .container {
     max-width: 960px;
@@ -286,13 +297,3 @@ footer  ul  a:hover {
     padding: 0 1.5rem 0 1.5rem;
 }
 
-body{
-    text-align: center;
-    display: grid;
-    grid-template-rows: 6rem auto 6rem;
-    grid-template-areas: 
-    "nav"
-    "top"
-    "footer"
-    ;
-}

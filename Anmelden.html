@@ -5,10 +5,11 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=divice-width, initial-scale=1.0">
 			<title> Escoba-AG </title>
-			<link rel="stylesheet" type="text/css" href="../CSS/Anmelden.css">
-			<link rel="stylesheet" type="text/css" href="../CSS/Navigation.css">
+			<link rel="stylesheet" type="text/css" href="CSS/Anmelden.css">
+			<link rel="stylesheet" type="text/css" href="CSS/Navigation.css">
 			<link rel="icon" type="image/png" href="../Bilder/Tab Logo.png">
 			<script src="js/nav.js"></script>
+			<script src="js/Anmelden.js"></script>
 		</head>
 
   	<body>
@@ -40,7 +41,18 @@
 			</div>  
 		</nav>
 		<div class="top">
-			<h1>Anmelden</h1>
+			<h1 class="anmelden">Anmelden</h1>
+			<form action="">
+				<input type="text" name="email" id="email"><br>
+				<label for="email">Email</label>
+				<br><br><br>
+				<input type="text" name="passwort" id="passwort"><br>
+				<label for="passwort">Passwort</label><br><br><br>
+				<button class="btn" >
+					Anmelden
+				</button>
+			</form>
+			
 		</div>
 			
 			<!--Footer-->
