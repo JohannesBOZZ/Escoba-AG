@@ -263,7 +263,7 @@ footer {
     border-top: solid 1px #666;
     padding: 1.5rem;
     color:#dddddd;
-    margin: 0rem 3rem 0rem 3rem;
+    margin: 1.337rem 3rem 0rem 3rem;
 }
   
 footer ul {
@@ -297,3 +297,7 @@ footer  ul  a:hover {
     padding: 0 1.5rem 0 1.5rem;
 }
 
+/*Text Farbe*/
+.txt{
+    color: #fff;
+}
