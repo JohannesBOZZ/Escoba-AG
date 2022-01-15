@@ -202,7 +202,7 @@ body{
 /*Log in*/
 .Log-in{
     position: fixed;
-    right: 10.5%;
+    right: 10.5rem;
     color: #ffff00;
     border: solid ;
     border-radius: 2rem;
@@ -213,7 +213,7 @@ body{
     list-style: none;
     margin-right: 10px;
     font-weight: bold;
-    width: 10vw;
+    width: 10rem;
 
 }
 /*macht den link zur normalen schrift*/
@@ -241,7 +241,7 @@ body{
     list-style: none;
     margin-right: 10px;
     font-weight: bold;
-    width: 10vw;
+    width: 10rem;
 }
 /*macht den link zur normalen schrift*/
 .Wahrenkorb a {
