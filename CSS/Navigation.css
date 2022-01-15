@@ -201,18 +201,19 @@ body{
 }
 /*Log in*/
 .Log-in{
-    margin-right: 8vw;
     position: fixed;
+    right: 10.5%;
     color: #ffff00;
     border: solid ;
     border-radius: 2rem;
     text-align: center;
-    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    padding: 0.8rem;
     margin-top: 8px;
     font-size: 1.2rem;
     list-style: none;
-    margin-right: 5px;
+    margin-right: 10px;
     font-weight: bold;
+    width: 10vw;
 
 }
 /*macht den link zur normalen schrift*/
@@ -228,15 +229,24 @@ body{
 /*Wahrenkorb*/
 .Wahrenkorb{
     position: fixed;
-    margin-left: 66vw;
+    right: 0;
     color: #ffff00;
     border: solid ;
     border-radius: 2rem;
     text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     margin-top: 8px;
-    margin-left: 5px;
-    height: 6%;
-    width: 10%;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 10vw;
+}
+/*macht den link zur normalen schrift*/
+.Wahrenkorb a {
+    color: #ffff00;
+    text-decoration:none;
 }
 /*Transparent*/
 .Wahrenkorb:hover a img {
@@ -249,7 +259,7 @@ footer {
     border-top: solid 1px #666;
     padding: 1.5rem;
     color:#dddddd;
-    margin: 1.337rem 3rem 0rem 3rem;
+    margin: 1.337rem ;
 }
 /*list style*/
 footer ul {
