@@ -14,7 +14,7 @@ html{
 }
   
 body {
-    font-family: century gothic;
+    font-family: comic sans;
     background-color: #1d1d1d;
     line-height: 1.4;
     height: 100vh;
@@ -301,4 +301,10 @@ footer  ul  a:hover {
 /*Text Farbe*/
 .txt{
     color: #fff;
+}
+
+.text{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }

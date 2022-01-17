@@ -1,6 +1,9 @@
-p{
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: bold;
-  font-family: century gothic;
+.top{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto 50vh;
+  grid-template-areas: 
+  "Reperatur Schadensanalyse"
+  "Reperatur-img Schadensanalyse-img"
+  ;
 }
